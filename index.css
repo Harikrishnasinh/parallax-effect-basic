@@ -1,0 +1,153 @@
+body {
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body .container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://www.legalnomads.com/wp-content/uploads/2015/10/Storytelling-crop-e1503500337390.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body .container nav {
+  background: transparent;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  transition: 0.2s all ease;
+}
+body .container nav ul {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  justify-content: center;
+}
+body .container nav ul li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 800;
+  cursor: pointer;
+}
+body .container nav ul li a {
+  text-decoration: none;
+  color: #3f456f;
+}
+body .container nav h2 {
+  font-size: 1.8rem;
+}
+body .container nav h2 span {
+  font-size: 1.8rem;
+  color: #3f456f;
+  font-weight: bolder;
+}
+body .container nav div .login_btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #3f456f;
+  font-weight: bold;
+}
+body .container nav div .signup_btn {
+  background-color: #3f456f;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 10px 13px;
+}
+body .container header {
+  height: 99vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .container header h1 {
+  color: cadetblue;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+body .container .header-details {
+  height: 100vh;
+}
+body .container-2 {
+  height: 100vh;
+}
+body .container-2 .img-container-2 {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://purepng.com/public/uploads/medium/landscape-nic.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body .container-2 .details {
+  background-color: white;
+  padding: 20px 40px;
+}
+body .container-2 .details button {
+  background-color: #3f456f;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+body .container-3 {
+  height: 100vh;
+}
+body .container-3 .img-container-3 {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://cdn.pixabay.com/photo/2017/07/13/19/51/sunset-2501727_960_720.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body .container-3 .details {
+  background-color: white;
+  padding: 20px 40px;
+}
+body .container-3 .details button {
+  background-color: #3f456f;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+body .container-4 {
+  height: 100vh;
+}
+body .container-4 .img-container-4 {
+  height: 100vh;
+  width: 100vw;
+  background: url("https://pngimg.com/uploads/grass/grass_PNG10863.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body .container-4 .details {
+  background-color: white;
+  padding: 20px 40px;
+}
+body .container-4 .details button {
+  background-color: #3f456f;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 10px 40px;
+}/*# sourceMappingURL=index.css.map */

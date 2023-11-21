@@ -1,0 +1,178 @@
+// $nav_color: #b3bbfb;
+$nav_font_color: #3f456f;
+$whitesmoke: whitesmoke;
+$white:white;
+
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("https://www.legalnomads.com/wp-content/uploads/2015/10/Storytelling-crop-e1503500337390.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+        nav {
+            background: transparent;
+            color: $whitesmoke;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 5rem;
+            position: fixed;
+            left: 0;
+            right: 0;
+            transition: .2s all ease;
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 5rem;
+                justify-content: center;
+
+                li {
+                    text-decoration: none;
+                    list-style: none;
+                    font-weight: 800;
+                    cursor: pointer;
+
+                    a {
+                        text-decoration: none;
+                        color: $nav_font_color;
+                    }
+                }
+            }
+
+            h2 {
+                // font-family: 'Hanken Grotesk', sans-serif !important;
+                font-size: 1.8rem;
+
+                span {
+                    font-size: 1.8rem;
+                    color: $nav_font_color;
+                    font-weight: bolder;
+                }
+            }
+
+            div {
+                .login_btn {
+                    background: none;
+                    border: none;
+                    font-size: 1.2rem;
+                    color: $nav_font_color;
+                    font-weight: bold;
+                }
+
+                .signup_btn {
+                    background-color: $nav_font_color;
+                    color: white;
+                    font-weight: bolder;
+                    font-size: 1rem;
+                    border-radius: 8px;
+                    border: none;
+                    // border-color: #b3bbfb;
+                    outline: none;
+                    padding: 10px 13px;
+                }
+            }
+        }
+        header{
+            height: 99vh;
+            width: auto;
+            // margin-top: 10rem;
+            // background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1{
+                color: cadetblue;
+                font-weight: bolder;
+                font-size: 2rem;
+            }
+        }
+        .header-details{
+            height: 100vh;
+        }
+    }
+
+    .container-2{
+        height: 100vh;
+        .img-container-2{
+            height: 100vh;
+            width: 100vw;
+            background: url("https://purepng.com/public/uploads/medium/landscape-nic.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .details{
+            background-color: $white;
+            padding: 20px 40px;
+        button{
+            background-color: $nav_font_color;
+            color:$white;
+            border: none;
+            text-decoration: none;
+
+            padding:10px 40px;
+        }
+        }
+    }
+    .container-3{
+        height: 100vh;
+        .img-container-3{
+            height: 100vh;
+            width: 100vw;
+            background: url("https://cdn.pixabay.com/photo/2017/07/13/19/51/sunset-2501727_960_720.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .details{
+            background-color: $white;
+            padding: 20px 40px;
+        button{
+            background-color: $nav_font_color;
+            color:$white;
+            border: none;
+            text-decoration: none;
+
+            padding:10px 40px;
+        }
+        }
+    }
+
+    .container-4{
+        height: 100vh;
+        .img-container-4{
+            height: 100vh;
+            width: 100vw;
+            background: url("https://pngimg.com/uploads/grass/grass_PNG10863.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .details{
+            background-color: $white;
+            padding: 20px 40px;
+        button{
+            background-color: $nav_font_color;
+            color:$white;
+            border: none;
+            text-decoration: none;
+
+            padding:10px 40px;
+        }
+        }
+    }
+}
